@@ -17,6 +17,6 @@ public class Main {
         System.out.println("User с именем — r добавлен в базу данных ");
         System.out.println(userService.getAllUsers());
         userService.cleanUsersTable();
-
+        userService.dropUsersTable();
     }
 }
